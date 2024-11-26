@@ -8,7 +8,7 @@ int main() {
 		if (n <= 0) {
             printf("So nhap vao khong phai so nguyen duong. Vui long thu lai!\n");
         }
-    } while (n <= 0); // L?p l?i cho d?n khi ngu?i dùng nh?p s? nguyên duong
+    } while (n <= 0);
     for (int i = 1; i <= n; i++) {
         sum += i;
     }
